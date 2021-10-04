@@ -1,0 +1,80 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Nike Shoes</title>
+  </head>
+  <body>
+    <header>
+      <figure>
+        <a href="index.html"
+          ><img src="style/nikeLogo.png" alt="Nike Logo" width="80px"
+        /></a>
+      </figure>
+      <nav>
+        <ul class="navlist">
+          <li class="navitem"><a class="navlink" href="#">New Releases</a></li>
+          <li class="navitem"><a class="navlink" href="#">Men</a></li>
+          <li class="navitem"><a class="navlink" href="#">Women</a></li>
+          <li class="navitem"><a class="navlink" href="#">Kids</a></li>
+          <li class="navitem"><a class="navlink" href="#">Sale</a></li>
+          <li class="navitem"><a class="navlink" href="#">Collections</a></li>
+        </ul>
+      </nav>
+      <div class="searchAndCart">
+        <div class="searchBar">
+          <svg
+            class="searchIcon"
+            fill="#111"
+            height="30px"
+            width="30px"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z"
+            ></path>
+          </svg>
+          <input
+            type="text"
+            placeholder="Search"
+            class="searchField"
+            id="search"
+          />
+        </div>
+        <a class="cartLink" href="#"
+          ><svg class="cart" width="24px" height="24px" fill="#111">
+            <path
+              d="M16 7a1 1 0 0 1-1-1V3H9v3a1 1 0 0 1-2 0V3a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1z"
+            ></path>
+            <path
+              d="M20 5H4a2 2 0 0 0-2 2v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a2 2 0 0 0-2-2zm0 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7h16z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+    <section class="banner">
+      <figure class="bannerShoe">
+        <img
+          src="style/nikeFlywireKD.png"
+          alt="Kevin Durant's Flywire Shoe"
+          width="600px"
+        />
+      </figure>
+      <div class="bannerTextContainer">
+        <div class="bannerText">
+          <h3>KD-Flywire</h3>
+          <h5>For the Athlete in us All</h5>
+        </div>
+      </div>
+    </section>
+    <section class="featured">
+      <div class="featuredCards"></div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
